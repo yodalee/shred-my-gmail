@@ -10,3 +10,8 @@ g.src = chrome.extension.getURL('gmail.js');
 var s = document.createElement('script');
 s.src = chrome.extension.getURL('main.js');
 (document.head || document.documentElement).appendChild(s);
+
+var a = document.createElement('audio');
+a.id = "sound";
+a.src = chrome.extension.getURL('shredder.mp3');
+(document.head || document.documentElement).appendChild(a);

@@ -11,7 +11,8 @@
   "web_accessible_resources": [
     "jquery-1.10.2.min.js",
     "gmail.js",
-    "main.js"
+    "main.js",
+    "shredder.mp3"
   ],
   "manifest_version": 2
 }

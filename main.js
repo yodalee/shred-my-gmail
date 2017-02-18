@@ -10,7 +10,12 @@ function refresh(f) {
 
 var playShredSound = function() {
   console.log("delete something");
-  var myAudio = new Audio();
+  var a = document.getElementById("sound");
+  if (!a.paused ) {
+    a.pause();
+    a.currentTime = 0;
+  }
+  a.play();
 }
 
 var main = function() {
