@@ -1,7 +1,7 @@
 {
-  "name": "Gmail.js",
+  "name": "ShredMyGmail",
   "version": "0.1",
-  "description": "Hello World Gmail chrome extension",
+  "description": "Play shredder sound when delete mails",
   "content_scripts": [
     {
       "matches": ["https://mail.google.com/*"],
